@@ -50,8 +50,6 @@ const ServiceCard = ({ index, title, icon, description }) => {
           </div>
         </div>
       </motion.div>
-
-      {/* Custom scrollbar styles */}
       <style jsx>{`
         .scrollbar-custom::-webkit-scrollbar {
           width: 8px;
