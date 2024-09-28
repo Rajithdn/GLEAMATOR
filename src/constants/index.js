@@ -27,34 +27,43 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "About Us",
   },
   {
     id: "work",
-    title: "Services",
+    title: "Why Gleamator",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "Get In Touch",
   },
 ];
 
 const Services = [
   {
-    title: "Services 1",
+    title: "Founders / Leadership",
     icon: web,
+    description:"The founders of Gleamator Technologies bring a wealth of experience in both skilldevelopment, IT and HR services. They possess a deep understanding of thechallenges and opportunities within the industry, having previously worked onsimilar projects."
   },
   {
-    title: "Services 2",
+    title: "Project Managers:",
     icon: mobile,
+    description:"The project management team consists ofseasoned professionals with a trackrecord of successfully executing skilldevelopment and IT services projects.They are adept at overseeing projectlifecycles, ensuring timely delivery, andmaintaining high-quality standards"
   },
   {
-    title: "Services 3",
+    title: "Technical Experts",
     icon: backend,
+    description:"Gleamator Technologies boasts a team oftechnical experts proficient in various domains of IT services. These experts bring specialized skills in software development, database management, mobile appdevelopment, and other relevant areas, enabling the company to deliver innovative solutions tailored to the needs of its clients."
   },
   {
-    title: "Services 4",
+    title: "Skill Development Specialists",
     icon: creator,
+    description:"The team includes individuals with expertise in designing and implementing skilldevelopment programs. They possess in-depth knowledge of industry-specifictraining methodologies, curriculum development, and assessment techniques,allowing Gleamator to deliver effective training solutions that align with market demands."
+  },
+  {
+    title: "Support Staf",
+    icon: creator,
+    description:"Gleamator Technologies values customer satisfaction and provides dedicated support staff to address client queries, resolve issues, and ensure a smooth project experience. These individuals are committed to delivering exceptional service and fostering longterm relationships with clients."
   },
 ];
 
