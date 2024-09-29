@@ -30,8 +30,8 @@ export const navLinks = [
     title: "About Us",
   },
   {
-    id: "work",
-    title: "Why Gleamator",
+    id: "services",
+    title: "Services",
   },
   {
     id: "contact",
@@ -118,13 +118,9 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
 ];
 
-const experiences = [
+const OurSericess = [
   {
     title: "Skill Training",
     icon: starbucks,
@@ -134,68 +130,27 @@ const experiences = [
     ],
   },
   {
-    title: "Training Centers",
+    title: "IT Services",
     icon: tesla,
     iconBg: "#E6DEDD",
     points: [
-      "Definition: Institutions that provide structured learning and skill development.",
-     " Purpose: Equip individuals with specific knowledge and practical skills for various careers.",
-      "Types of Training: Vocational, technical, soft skills, and professional development.",
-      "Target Audience: Job seekers, employees, and professionals seeking advancement.",
-      "Methods: Classroom instruction, hands-on workshops, and online courses.",
-      "Outcomes: Enhance employability, boost career progression, and meet industry demands.",
+      "This typically includes a broad spectrum of IT-related services such as IT consulting, system integration, Supply, AMC, and more. Gleamator Technologies likely provides these services to help businesses optimize their IT infrastructure and operations"
     ],
   },
   {
-    title: "Skill Hub",
+    title: "Corporate Training",
     icon: shopify,
     iconBg: "#383E56",
     points: [
-     "Definition: Centralized facilities for skill development and training.",
-    " Purpose: Equip individuals with industry-relevant skills.",
-     "Target Audience: Job seekers, students, and professionals looking to upskill.",
-    " Programs Offered: Workshops, courses, and certifications across various sectors.",
-    " Community Focus: Foster networking and collaboration among learners and employers.",
-    " Collaboration: Partner with industries for practical insights and opportunities."
+    "Corporate training programs are designed to address specific needs within organizations, such as Skilling & Up-Skilling on latest Technology courses, Leadership Development, Team Building, Communication Skills, and IndustrySpecific knowledge. Gleamator Technologies would offer tailored training solutions to improve overall organizational effectiveness."
     ],
   },
   {
-    title: "Digital Skills",
+    title: "HR Services",
     icon: meta,
     iconBg: "#E6DEDD",
     points: [
-      "Definition: Abilities needed to effectively navigate and utilize digital technologies.",
-      "Importance: Essential for job readiness in an increasingly digital economy.",
-      "Key Areas: Includes skills in coding, data analysis, digital marketing, and cybersecurity.",
-      "Applications: Used across various sectors, enhancing productivity and innovation.",
-      "Training Formats: Online courses, workshops, and certification programs.",
-      "Lifelong Learning: Encourages continuous skill development to keep up with technological advancements",
-    ],
-  },
-  {
-    title: "Digital Skills",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    points: [
-      "Definition: Abilities needed to effectively navigate and utilize digital technologies.",
-      "Importance: Essential for job readiness in an increasingly digital economy.",
-      "Key Areas: Includes skills in coding, data analysis, digital marketing, and cybersecurity.",
-      "Applications: Used across various sectors, enhancing productivity and innovation.",
-      "Training Formats: Online courses, workshops, and certification programs.",
-      "Lifelong Learning: Encourages continuous skill development to keep up with technological advancements",
-    ],
-  },
-  {
-    title: "Digital Skills",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    points: [
-      "Definition: Abilities needed to effectively navigate and utilize digital technologies.",
-      "Importance: Essential for job readiness in an increasingly digital economy.",
-      "Key Areas: Includes skills in coding, data analysis, digital marketing, and cybersecurity.",
-      "Applications: Used across various sectors, enhancing productivity and innovation.",
-      "Training Formats: Online courses, workshops, and certification programs.",
-      "Lifelong Learning: Encourages continuous skill development to keep up with technological advancements",
+    "This includes human resources consulting and outsourcing services. Gleamator Technologies offer assistance with recruitment, staffing solutions, HR policies and procedures, Performance Management, Employee relations, and other HRrelated functions to support businesses in managing their workforce effectively"
     ],
   },
 ];
@@ -203,64 +158,58 @@ const experiences = [
 const ceo = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "",
+    name: "CEO",
+    designation: "CEO",
+    company: "GLEAMATOR",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   }
 ];
 
 const Directors = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+    testimonial:"",
+    name: "Directors",
+    designation: "Directors",
+    company: "GLEAMATOR",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+    testimonial:"",
+    name: "Directors",
+    designation: "Directors",
+    company: "GLEAMATOR",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+    testimonial:"",
+    name: "Directors",
+    designation: "Directors",
+    company: "GLEAMATOR",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const members = [
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+    testimonial:"",
+    name: "members",
+    designation: "members",
+    company: "GLEAMATOR",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+    testimonial:"",
+    name: "members",
+    designation: "members",
+    company: "GLEAMATOR",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+    testimonial:"",
+    name: "members",
+    designation: "members",
+    company: "GLEAMATOR",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
 ];
@@ -331,4 +280,4 @@ const projects = [
   },
 ];
 
-export { Services,ceo,members,Directors, technologies, experiences, projects };
+export { Services,ceo,members,Directors, technologies, OurSericess, projects };

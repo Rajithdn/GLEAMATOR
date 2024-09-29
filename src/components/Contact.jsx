@@ -8,10 +8,10 @@ const Contact = () => {
       {/* First Column: Main Content */}
       <div className="column">
         <motion.div className="flex flex-col scrolling-text">
-          <h2 className={`text-white text-2xl font-bold mb-4`}>Our Presence</h2>
-          <h6 className={`text-gray-300 text-lg font-semibold mb-2`}>Point of Contacts</h6>
-          <h6 className={`text-gray-300 text-lg font-semibold mb-2`}>Tailor-Made Infrastructure</h6>
-          <h6 className={`text-gray-300 text-lg font-semibold mb-2`}>PAN India Execution Capability</h6>
+          <h2 className={`text-white text-lg md:text-xl lg:text-2xl font-bold mb-4`}>Our Presence</h2>
+          <h6 className={`text-gray-300 text-sm md:text-base font-semibold mb-2`}>Point of Contacts</h6>
+          <h6 className={`text-gray-300 text-sm md:text-base font-semibold mb-2`}>Tailor-Made Infrastructure</h6>
+          <h6 className={`text-gray-300 text-sm md:text-base font-semibold mb-2`}>PAN India Execution Capability</h6>
         </motion.div>
       </div>
 
@@ -33,7 +33,7 @@ const Contact = () => {
           <a href="tel:+911234567890" className="social-icon">
             <i className="bi bi-telephone-fill text-gray-300"></i>
           </a>
-          {/* Add more icons as needed */}
+
         </div>
       </div>
     </div>
